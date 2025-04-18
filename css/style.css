@@ -23,6 +23,12 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
+.container div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 section + section {
   margin-top: 20px;
 }
@@ -54,10 +60,12 @@ p {
   margin-top: 80px;
 }
 
-.inicio-section div {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.skills {
+  color: white;
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.6;
+  font-size: 20px;
 }
 
 .inicio-section img {
@@ -77,6 +85,10 @@ footer {
 footer p {
   color: #686868;
   font-size: 14px;
+}
+
+.email{
+  color: #ff5151;
 }
 
 @media (max-width: 768px) {
